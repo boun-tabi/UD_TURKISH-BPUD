@@ -1,16 +1,15 @@
-# newdoc id = 0
 # sent_id = 1
 # text = Obama'nın Özel Asistanı Kori Schulman Pazartesi günü yayınladığı blog yazısında "ABD'deki dijital dönüşümün büyük bir kısmı emsalsiz olsa da, başkanlık görevinin sorunsuz şekilde devredildiği görülmemiştir" dedi.
 1	Obama'nın	Obama	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	Proper=True
 2	Özel	özel	ADJ	JJ	Number=Sing	3	amod	_	_
-3	Asistanı	Asistan	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	appos	_	_
+3	Asistanı	Asistan	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
 4	Kori	Kori	PROPN	PROPN	Number=Sing	30	nsubj	_	Proper=True
 5	Schulman	Schulman	PROPN	PROPN	Case=Nom|Number=Sing	4	flat	_	Proper=True
 6	Pazartesi	pazartesi	NOUN	NN	Number=Sing	7	nmod:poss	_	_
 7	günü	gün	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 8	yayınladığı	yayınla	ADJ	VJ	Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	10	acl	_	_
 9	blog	blog	NOUN	NN	Number=Sing	10	nmod:poss	_	_
-10	yazısında	yazı	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	30	advmod	_	_
+10	yazısında	yazı	ADV	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	30	advmod	_	_
 11	"	"	PUNCT	``	_	28	punct	_	SpaceAfter=No
 12-13	ABD'deki	_	_	_	_	_	_	_	_
 12	ABD'de	ABD'	PROPN	PROPN	Case=Loc|Number=Sing	15	amod	_	Proper=True
@@ -27,7 +26,7 @@
 23	başkanlık	başkanlık	NOUN	NN	Number=Sing	24	nmod:poss	_	_
 24	görevinin	görev	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	27	nmod:poss	_	_
 25	sorunsuz	sorunsuz	ADJ	JJ	Number=Sing	26	amod	_	_
-26	şekilde	şekil	NOUN	NN	Case=Loc|Number=Sing	27	advmod	_	_
+26	şekilde	şekil	ADV	NN	Case=Loc|Number=Sing	27	advmod	_	_
 27	devredildiği	devredil	NOUN	VN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	28	csubj	_	_
 28	görülmemiştir	görülme	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Polarity=Neg|Tense=Past|Voice=Pass	30	ccomp	_	SpaceAfter=No
 29	"	"	PUNCT	''	_	28	punct	_	_
@@ -60,7 +59,7 @@
 1	Cumhuriyetçi	cumhuriyetçi	NOUN	NN	Number=Sing	2	nmod:poss	_	Proper=True
 2	Parti	parti	NOUN	NN	Number=Sing	4	nmod:poss	_	Proper=True
 3	Başkan	başkan	NOUN	NN	Number=Sing	4	nmod:poss	_	_
-4	adayı	aday	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	appos	_	_
+4	adayı	aday	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 5	Trump	Trump	PROPN	PROPN	Case=Nom|Number=Sing	31	nsubj	_	Proper=True|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	göç	göç	NOUN	NN	Number=Sing	8	nmod:poss	_	_
@@ -70,7 +69,7 @@
 11-12	önceki	_	_	_	_	_	_	_	_
 11	önce	önce	ADP	IN	_	13	amod	_	_
 12	ki	ki	ADP	JJ	_	11	case	_	_
-13	açıklamaların	açıkla	NOUN	VN	Case=Gen|Number=Plur|Polarity=Pos	31	advmod	_	_
+13	açıklamaların	açıkla	ADV	VN	Case=Gen|Number=Plur|Polarity=Pos	31	advmod	_	_
 14	aksine	ak	ADP	IN	_	13	case	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	13	punct	_	_
 16	başkan	başkan	NOUN	NN	Number=Sing	30	advcl:cond	_	_
@@ -85,7 +84,7 @@
 25	"	"	PUNCT	''	_	24	punct	_	_
 26	yasal	yasal	ADJ	JJ	Number=Sing	27	amod	_	_
 27	göçmenin	göçmen	NOUN	NN	Case=Gen|Number=Sing	29	nmod:poss	_	_
-28	ülkeye	ülke	NOUN	NN	Case=Dat|Number=Sing	29	advmod	_	_
+28	ülkeye	ülke	NOUN	NN	Case=Dat|Number=Sing	29	obl	_	_
 29	girişini	giriş	NOUN	VN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	30	obj	_	_
 30	onaylayacağını	onaylay	NOUN	VN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Pos	31	obj	_	_
 31	açıkladı	açıkla	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
@@ -102,7 +101,7 @@
 6	toplanmış	topla	ADJ	VJ	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Pass	7	acl	_	_
 7	kalabalığa	kalabalık	NOUN	NN	Case=Dat|Number=Sing	20	iobj	_	_
 8	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
-9	Size	siz	PRON	PRP	Case=Dat|Number=Sing|Person=2|Polarity=Pos	11	advmod	_	_
+9	Size	siz	PRON	PRP	Case=Dat|Number=Sing|Person=2|Polarity=Pos	11	obl	_	_
 10	baskı	baskı	NOUN	NN	Number=Sing	11	obj	_	_
 11	yapmak	yap	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Ger	12	xcomp	_	_
 12	istemem	iste	VERB	VB	Aspect=Hab|Mood=Gen|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	20	ccomp	_	_
@@ -197,8 +196,9 @@
 10	Metropolitan	Metropolitan	PROPN	PROPN	Number=Sing	13	advcl	_	Proper=True
 11	Club	Club	NOUN	NN	Number=Sing	13	advcl	_	Proper=True
 12	olarak	olarak	AUX	CRB	Polarity=Pos	10	cop	_	_
-13	belirlenmişti	belirle	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|Voice=Pass	0	root	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	13	punct	_	_
+13	belirlenmiş	belirle	VERB	VB	Evident=Nfh|Mood=Ind|Voice=Pass	0	root	_	SpaceAfter=No
+14	ti	i	AUX	Verb	Aspect=Perf|Number=Sing|Person=3|Tense=Pqp	13	cop	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = 10
 # text = Belki de kıyafet yönetmeliği çok sıkıcıydı.
@@ -221,7 +221,7 @@
 5	ünite	ünite	NOUN	NN	Number=Sing	7	advcl	_	_
 6	olarak	olarak	AUX	CRB	Polarity=Pos	5	cop	_	_
 7	görmek	gör	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Ger	8	advcl	_	_
-8	yerine	yer	NOUN	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	advmod	_	SpaceAfter=No
+8	yerine	yer	ADV	NN	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	öğrenciler	öğrenci	NOUN	NN	Case=Nom|Number=Plur	15	nsubj	_	_
 11	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	12	det	_	_
@@ -235,7 +235,7 @@
 # text = Dördüncü sınıflar arasında milli ortalamayla aynı seviyedeyken sekizinci sınıflarda ise bu ortalamanın üstündeler.
 1	Dördüncü	Dördüncü	NUM	CD	Number=Sing|NumType=Ord	2	amod	_	_
 2	sınıflar	sınıf	NOUN	NN	Number=Plur	3	nmod:poss	_	_
-3	arasında	ara	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	advmod	_	_
+3	arasında	ara	ADV	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	advmod	_	_
 4	milli	milli	ADJ	JJ	Number=Sing	5	amod	_	_
 5	ortalamayla	ortalama	NOUN	NN	Case=Ins|Number=Sing	6	nmod	_	ToDo=nmod
 6	aynı	aynı	ADJ	JJ	Number=Sing	7	amod	_	_
@@ -244,7 +244,7 @@
 8	yken	i	AUX	AUX	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Conv	7	cop	_	_
 9	sekizinci	sekizinci	NUM	CD	Number=Sing|NumType=Ord	10	amod	_	_
 10	sınıflarda	sınıf	NOUN	NN	Case=Loc|Number=Plur	14	advcl	_	_
-11	ise	ise	VERB	VB	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	10	cop	_	_
+11	ise	ise	AUX	VB	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	10	cop	_	_
 12	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	13	det	_	_
 13	ortalamanın	ortalama	NOUN	VN	Case=Gen|Number=Sing	14	nmod:poss	_	_
 14-15	üstündeler	_	_	_	_	_	_	_	SpaceAfter=No
@@ -259,7 +259,7 @@
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	2004'te	2004	NOUN	NN	Case=Loc|Number=Sing	5	obl	_	_
 5	açılan	aç	ADJ	VJ	Number=Sing|Polarity=Pos	8	acl	_	_
-6	NoMa	NoMa	PROPN	PROPN	Number=Sing	8	appos	_	Proper=True
+6	NoMa	NoMa	PROPN	PROPN	Number=Sing	7	nmod	_	Proper=True
 7	metro	metro	NOUN	NN	Number=Sing	8	nmod:poss	_	_
 8	istasyonunu	istasyon	NOUN	NN	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	_
 9	inşa	inşa	NOUN	NN	Number=Sing	14	csubj	_	_
@@ -277,7 +277,7 @@
 2	İş	iş	NOUN	NN	Number=Sing	3	obj	_	Proper=True
 3	Geliştirme	Geliştir	NOUN	VN	Aspect=Perf|Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Ger	4	nmod:poss	_	Proper=True
 4	Bölgesi	bölge	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod:poss	_	Proper=True
-5	Başkanı	başkan	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	appos	_	_
+5	Başkanı	başkan	NOUN	NN	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
 6	Joe	Joe	PROPN	PROPN	Number=Sing	25	nsubj	_	Proper=True
 7	Sternlieb	Sternlieb	PROPN	PROPN	Case=Nom|Number=Sing	6	flat	_	Proper=True|SpaceAfter=No
 8	,	,	PUNCT	,	_	6	punct	_	_
@@ -303,7 +303,7 @@
 # sent_id = 15
 # text = Fizibilite çalışmasına göre 4 yolcunun telesiyej ile Potomac Nehri'ni geçmesi yaklaşık dört dakika sürmektedir.
 1	Fizibilite	Fizibilite	NOUN	NN	Number=Sing	2	nmod:poss	_	_
-2	çalışmasına	çalış	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger	14	advmod	_	_
+2	çalışmasına	çalış	NOUN	VN	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Ger	14	obl	_	_
 3	göre	göre	ADP	IN	_	2	case	_	_
 4	4	4	NUM	CD	Number=Sing	5	nummod	_	_
 5	yolcunun	yolcu	NOUN	NN	Case=Gen|Number=Sing	10	nsubj	_	_
@@ -334,13 +334,13 @@
 # sent_id = 17
 # text = Bu noktada, oyunlar ile günlük yaşamımız arasında bazı benzerlikler kurulabilir.
 1	Bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	2	det	_	_
-2	noktada	nokta	NOUN	NN	Case=Loc|Number=Sing	11	advmod	_	SpaceAfter=No
+2	noktada	nokta	ADV	NN	Case=Loc|Number=Sing	11	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
 4	oyunlar	oyun	NOUN	NN	Number=Plur	8	nmod:poss	_	_
 5	ile	ile	CCONJ	CCONJ	_	7	cc	_	_
 6	günlük	günlük	ADJ	JJ	Number=Sing	7	amod	_	_
 7	yaşamımız	yaşam	NOUN	NN	Number=Sing|Number[psor]=Plur|Person[psor]=1	4	conj	_	_
-8	arasında	ara	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	advmod	_	_
+8	arasında	ara	ADV	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	advmod	_	_
 9	bazı	bazı	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	10	det	_	_
 10	benzerlikler	benzerlik	NOUN	VN	Case=Nom|Number=Plur	11	nsubj	_	_
 11	kurulabilir	kurulab	VERB	VB	Aspect=Hab|Mood=AbilGen|Number=Sing|Person=3|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
@@ -364,23 +364,23 @@
 13	oyların	oy	NOUN	NN	Case=Gen|Number=Plur	14	nmod:poss	_	_
 14	toplamının	toplam	NOUN	NN	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	18	nmod:poss	_	_
 15	yalnızca	yalnızca	ADV	RB	_	18	advmod	_	_
-16	yüzde	yüz	NOUN	NN	Case=Loc|Number=Sing	18	nummod	_	_
+16	yüzde	yüz	NUM	NN	Case=Loc|Number=Sing	18	nummod	_	_
 17	on	on	NUM	CD	Number=Sing	16	compound	_	_
 18	biri	biri	NOUN	NN	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	nsubj	_	_
-19	kullanılmıştı	kullan	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|Voice=Pass	27	conj	_	SpaceAfter=No
+19	kullanılmıştı	kullan	VERB	VB	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|Voice=Pass	0	root	_	SpaceAfter=No
 20	;	;	PUNCT	,	_	19	punct	_	_
 21	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	22	det	_	_
 22	oran	oran	NOUN	NN	Case=Nom|Number=Sing	27	nsubj	_	_
 23	yıllarca	yıllarca	ADV	RB	_	27	advmod	_	_
 24	istikrarlı	istikrarlı	ADJ	JJ	Number=Sing	26	amod	_	_
 25	bir	bir	DET	DT	Definite=Ind|Number=Sing|Polarity=Pos	26	det	_	_
-26	şekilde	şekil	NOUN	NN	Case=Loc|Number=Sing	27	advmod	_	_
-27	yükseldi	yüksel	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+26	şekilde	şekil	ADV	NN	Case=Loc|Number=Sing	27	advmod	_	_
+27	yükseldi	yüksel	VERB	VB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	19	conj	_	_
 28	ve	ve	CCONJ	CCONJ	_	34	cc	_	_
 29	bu	bu	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	30	det	_	_
 30	sene	sene	NOUN	NN	Number=Sing	34	obl	_	_
 31	de	de	ADV	RB	_	30	advmod:emph	_	_
-32	yükselecek	yüksel	NOUN	VN	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut	34	advmod	_	_
+32	yükselecek	yüksel	ADV	VN	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut	34	advcl	_	_
 33	gibi	gibi	ADP	IN	_	32	case	_	_
 34	görünüyor	görün	VERB	VB	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	conj	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	34	punct	_	_
@@ -416,7 +416,7 @@
 9	üzere	üzere	ADP	IN	_	7	case	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	7	punct	_	_
 11	diğer	diğer	DET	DT	Definite=Def|Number=Sing|Polarity=Pos	12	det	_	_
-12	ülkelerden	ülke	NOUN	NN	Case=Abl|Number=Plur	20	advmod	_	_
+12	ülkelerden	ülke	ADV	NN	Case=Abl|Number=Plur	20	advmod	_	_
 13	hayvanat	hayvanat	NOUN	NN	Number=Sing	14	nmod:poss	_	_
 14-15	bahçesindeki	_	_	_	_	_	_	_	_
 14	bahçesinde	bahçe	NOUN	NN	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	amod	_	_
